@@ -66,4 +66,9 @@ public class Chien extends Animal{
                 "Race : %s \n", this.getCouleurCollier(), this.getDresser(), this.getRace());
         return super.getCaracteristiques() + catCaracteristic;
     }
+
+    @Override
+    public String cri() {
+        return "Woof";
+    }
 }

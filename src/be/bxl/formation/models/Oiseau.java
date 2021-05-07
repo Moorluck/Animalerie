@@ -54,5 +54,8 @@ public class Oiseau extends Animal{
         return super.getCaracteristiques() + catCaracteristic;
     }
 
-
+    @Override
+    public String cri() {
+        return "Pioupiou";
+    }
 }

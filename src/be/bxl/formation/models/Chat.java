@@ -71,4 +71,9 @@ public class Chat extends Animal{
                 "Poil : %s \n", this.getCaractere(), this.getGriffe(), this.getPoil());
         return super.getCaracteristiques() + catCaracteristic;
     }
+
+    @Override
+    public String cri() {
+        return "Miaou";
+    }
 }

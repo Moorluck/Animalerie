@@ -101,4 +101,8 @@ public class Animal {
                         "Date d'arrivée : %s \n",
                 this.getNom(), this.getPoids(), this.getTaille(), this.getSexe(), this.getAge(), this.getDateArrivee());
     }
+
+    public String cri() {
+        return "";
+    }
 }
