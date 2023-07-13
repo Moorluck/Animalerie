@@ -1,6 +1,7 @@
 package be.bxl.formation.models;
 
 public class Animal {
+    
     private String nom;
     private int poids;
     private int taille;
